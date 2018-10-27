@@ -1,0 +1,6 @@
+package;
+
+class Constants
+{
+   
+}
