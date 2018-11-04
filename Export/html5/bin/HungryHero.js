@@ -806,9 +806,9 @@ ApplicationMain.create = function(config) {
 	ManifestResources.init(config);
 	var _this = app.meta;
 	if(__map_reserved["build"] != null) {
-		_this.setReserved("build","89");
+		_this.setReserved("build","4");
 	} else {
-		_this.h["build"] = "89";
+		_this.h["build"] = "4";
 	}
 	var _this1 = app.meta;
 	if(__map_reserved["company"] != null) {
@@ -4548,15 +4548,7 @@ var Assets = function(callback) {
 	this._callback = callback;
 	this._manager = new starling_utils_AssetManager();
 	this._manager.set_verbose(openfl_system_Capabilities.isDebugger);
-	this._manager.addSound("bgGame",openfl_utils_Assets.getSound("assets/sounds/bgGame.mp3"));
-	this._manager.addSound("bgWelcome",openfl_utils_Assets.getSound("assets/sounds/bgWelcome.mp3"));
-	this._manager.addSound("coffee",openfl_utils_Assets.getSound("assets/sounds/coffee.mp3"));
-	this._manager.addSound("eat",openfl_utils_Assets.getSound("assets/sounds/eat.mp3"));
-	this._manager.addSound("hit",openfl_utils_Assets.getSound("assets/sounds/hit.mp3"));
-	this._manager.addSound("hurt",openfl_utils_Assets.getSound("assets/sounds/hurt.mp3"));
-	this._manager.addSound("lose",openfl_utils_Assets.getSound("assets/sounds/lose.mp3"));
-	this._manager.addSound("mushroom",openfl_utils_Assets.getSound("assets/sounds/mushroom.mp3"));
-	this._manager.enqueue([openfl_utils_Assets.getPath("assets/graphics/mySpritesheet.png"),openfl_utils_Assets.getPath("assets/graphics/mySpritesheet.xml"),openfl_utils_Assets.getPath("assets/graphics/bgLayer1.jpg"),openfl_utils_Assets.getPath("assets/graphics/bgWelcome.jpg"),openfl_utils_Assets.getPath("assets/particles/particleCoffee.pex"),openfl_utils_Assets.getPath("assets/particles/particleMushroom.pex"),openfl_utils_Assets.getPath("assets/particles/particleCoffee.pex"),openfl_utils_Assets.getPath("assets/particles/particleMushroom.pex"),openfl_utils_Assets.getPath("assets/particles/texture.png"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontRegular.png"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontRegular.fnt"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontScoreLabel.png"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontScoreLabel.fnt"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontScoreValue.png"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontScoreValue.fnt")]);
+	this._manager.enqueue([openfl_utils_Assets.getPath("assets/graphics/mySpritesheet.png"),openfl_utils_Assets.getPath("assets/graphics/mySpritesheet.xml"),openfl_utils_Assets.getPath("assets/graphics/bgLayer1.jpg"),openfl_utils_Assets.getPath("assets/graphics/bgWelcome.jpg"),openfl_utils_Assets.getPath("assets/particles/particleCoffee.pex"),openfl_utils_Assets.getPath("assets/particles/particleMushroom.pex"),openfl_utils_Assets.getPath("assets/particles/texture.png"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontRegular.png"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontRegular.fnt"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontScoreLabel.png"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontScoreLabel.fnt"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontScoreValue.png"),openfl_utils_Assets.getPath("assets/fonts/bitmap/fontScoreValue.fnt"),openfl_utils_Assets.getPath("assets/sounds/bgGame.mp3"),openfl_utils_Assets.getPath("assets/sounds/bgWelcome.mp3"),openfl_utils_Assets.getPath("assets/sounds/coffee.mp3"),openfl_utils_Assets.getPath("assets/sounds/eat.mp3"),openfl_utils_Assets.getPath("assets/sounds/hit.mp3"),openfl_utils_Assets.getPath("assets/sounds/hurt.mp3"),openfl_utils_Assets.getPath("assets/sounds/lose.mp3"),openfl_utils_Assets.getPath("assets/sounds/mushroom.mp3")]);
 	this._manager.loadQueue($bind(this,this.onProgress));
 };
 $hxClasses["Assets"] = Assets;
@@ -8563,7 +8555,7 @@ ManifestResources.init = function(config) {
 	var data;
 	var manifest;
 	var library;
-	data = "{\"name\":null,\"assets\":\"aoy4:pathy41:assets%2Ffonts%2Fbitmap%2FfontRegular.fnty4:sizei4964y4:typey4:TEXTy2:idR1y7:preloadtgoR0y41:assets%2Ffonts%2Fbitmap%2FfontRegular.pngR2i8939R3y5:IMAGER5R7R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreLabel.fntR2i3449R3R4R5R9R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreLabel.pngR2i9638R3R8R5R10R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreValue.fntR2i3356R3R4R5R11R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreValue.pngR2i18212R3R8R5R12R6tgoR0y32:assets%2Fgraphics%2FbgLayer1.jpgR2i51263R3R8R5R13R6tgoR0y33:assets%2Fgraphics%2FbgWelcome.jpgR2i174173R3R8R5R14R6tgoR0y37:assets%2Fgraphics%2FmySpritesheet.pngR2i799010R3R8R5R15R6tgoR0y37:assets%2Fgraphics%2FmySpritesheet.xmlR2i6655R3R4R5R16R6tgoR0y39:assets%2Fparticles%2FparticleCoffee.pexR2i1425R3R4R5R17R6tgoR0y41:assets%2Fparticles%2FparticleMushroom.pexR2i1390R3R4R5R18R6tgoR0y32:assets%2Fparticles%2Ftexture.pngR2i668R3R8R5R19R6tgoR2i280449R3y5:MUSICR5y28:assets%2Fsounds%2FbgGame.mp3y9:pathGroupaR21hR6tgoR2i280449R3R20R5y31:assets%2Fsounds%2FbgWelcome.mp3R22aR23hR6tgoR2i25076R3R20R5y28:assets%2Fsounds%2Fcoffee.mp3R22aR24hR6tgoR2i14627R3R20R5y25:assets%2Fsounds%2Feat.mp3R22aR25hR6tgoR2i10030R3R20R5y25:assets%2Fsounds%2Fhit.mp3R22aR26hR6tgoR2i10866R3R20R5y26:assets%2Fsounds%2Fhurt.mp3R22aR27hR6tgoR2i51408R3R20R5y26:assets%2Fsounds%2Flose.mp3R22aR28hR6tgoR2i25494R3R20R5y30:assets%2Fsounds%2Fmushroom.mp3R22aR29hR6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
+	data = "{\"name\":null,\"assets\":\"aoy4:pathy41:assets%2Ffonts%2Fbitmap%2FfontRegular.fnty4:sizei5009y4:typey4:TEXTy2:idR1y7:preloadtgoR0y41:assets%2Ffonts%2Fbitmap%2FfontRegular.pngR2i8939R3y5:IMAGER5R7R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreLabel.fntR2i3483R3R4R5R9R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreLabel.pngR2i9638R3R8R5R10R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreValue.fntR2i3389R3R4R5R11R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreValue.pngR2i18212R3R8R5R12R6tgoR0y32:assets%2Fgraphics%2FbgLayer1.jpgR2i51263R3R8R5R13R6tgoR0y33:assets%2Fgraphics%2FbgWelcome.jpgR2i174173R3R8R5R14R6tgoR0y37:assets%2Fgraphics%2FmySpritesheet.pngR2i799010R3R8R5R15R6tgoR0y37:assets%2Fgraphics%2FmySpritesheet.xmlR2i6722R3R4R5R16R6tgoR0y39:assets%2Fparticles%2FparticleCoffee.pexR2i1462R3R4R5R17R6tgoR0y41:assets%2Fparticles%2FparticleMushroom.pexR2i1427R3R4R5R18R6tgoR0y32:assets%2Fparticles%2Ftexture.pngR2i668R3R8R5R19R6tgoR2i280449R3y5:MUSICR5y28:assets%2Fsounds%2FbgGame.mp3y9:pathGroupaR21hR6tgoR2i280449R3R20R5y31:assets%2Fsounds%2FbgWelcome.mp3R22aR23hR6tgoR2i25076R3R20R5y28:assets%2Fsounds%2Fcoffee.mp3R22aR24hR6tgoR2i14627R3R20R5y25:assets%2Fsounds%2Feat.mp3R22aR25hR6tgoR2i10030R3R20R5y25:assets%2Fsounds%2Fhit.mp3R22aR26hR6tgoR2i10866R3R20R5y26:assets%2Fsounds%2Fhurt.mp3R22aR27hR6tgoR2i51408R3R20R5y26:assets%2Fsounds%2Flose.mp3R22aR28hR6tgoR2i25494R3R20R5y30:assets%2Fsounds%2Fmushroom.mp3R22aR29hR6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
 	manifest = lime_utils_AssetManifest.parse(data,rootPath);
 	library = lime_utils_AssetLibrary.fromManifest(manifest);
 	lime_utils_Assets.registerLibrary("default",library);
@@ -31807,7 +31799,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 165519;
+	this.version = 114175;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = ["lime","utils","AssetCache"];

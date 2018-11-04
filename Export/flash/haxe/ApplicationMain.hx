@@ -52,7 +52,7 @@ import haxe.macro.Expr;
 		
 		var attributes:lime.ui.WindowAttributes = {
 			
-			allowHighDPI: false,
+			allowHighDPI: true,
 			alwaysOnTop: false,
 			borderless: false,
 			// display: 0,

@@ -63,7 +63,7 @@ import sys.FileSystem;
 		
 		#else
 		
-		data = '{"name":null,"assets":"aoy4:pathy41:assets%2Ffonts%2Fbitmap%2FfontRegular.fnty4:sizei5009y4:typey4:TEXTy2:idR1y7:preloadtgoR0y41:assets%2Ffonts%2Fbitmap%2FfontRegular.pngR2i8939R3y5:IMAGER5R7R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreLabel.fntR2i3483R3R4R5R9R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreLabel.pngR2i9638R3R8R5R10R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreValue.fntR2i3389R3R4R5R11R6tgoR0y44:assets%2Ffonts%2Fbitmap%2FfontScoreValue.pngR2i18212R3R8R5R12R6tgoR0y32:assets%2Fgraphics%2FbgLayer1.jpgR2i51263R3R8R5R13R6tgoR0y33:assets%2Fgraphics%2FbgWelcome.jpgR2i174173R3R8R5R14R6tgoR0y37:assets%2Fgraphics%2FmySpritesheet.pngR2i799010R3R8R5R15R6tgoR0y37:assets%2Fgraphics%2FmySpritesheet.xmlR2i6722R3R4R5R16R6tgoR0y39:assets%2Fparticles%2FparticleCoffee.pexR2i1462R3R4R5R17R6tgoR0y41:assets%2Fparticles%2FparticleMushroom.pexR2i1427R3R4R5R18R6tgoR0y32:assets%2Fparticles%2Ftexture.pngR2i668R3R8R5R19R6tgoR2i280449R3y5:MUSICR5y28:assets%2Fsounds%2FbgGame.mp3y9:pathGroupaR21hR6tgoR2i280449R3R20R5y31:assets%2Fsounds%2FbgWelcome.mp3R22aR23hR6tgoR2i25076R3R20R5y28:assets%2Fsounds%2Fcoffee.mp3R22aR24hR6tgoR2i14627R3R20R5y25:assets%2Fsounds%2Feat.mp3R22aR25hR6tgoR2i10030R3R20R5y25:assets%2Fsounds%2Fhit.mp3R22aR26hR6tgoR2i10866R3R20R5y26:assets%2Fsounds%2Fhurt.mp3R22aR27hR6tgoR2i51408R3R20R5y26:assets%2Fsounds%2Flose.mp3R22aR28hR6tgoR2i25494R3R20R5y30:assets%2Fsounds%2Fmushroom.mp3R22aR29hR6tgh","rootPath":null,"version":2,"libraryArgs":[],"libraryType":null}';
+		data = '{"name":null,"assets":"aoy4:sizei5009y4:typey4:TEXTy9:classNamey44:__ASSET__assets_fonts_bitmap_fontregular_fnty2:idy41:assets%2Ffonts%2Fbitmap%2FfontRegular.fntgoR0i8939R1y5:IMAGER3y44:__ASSET__assets_fonts_bitmap_fontregular_pngR5y41:assets%2Ffonts%2Fbitmap%2FfontRegular.pnggoR0i3483R1R2R3y47:__ASSET__assets_fonts_bitmap_fontscorelabel_fntR5y44:assets%2Ffonts%2Fbitmap%2FfontScoreLabel.fntgoR0i9638R1R7R3y47:__ASSET__assets_fonts_bitmap_fontscorelabel_pngR5y44:assets%2Ffonts%2Fbitmap%2FfontScoreLabel.pnggoR0i3389R1R2R3y47:__ASSET__assets_fonts_bitmap_fontscorevalue_fntR5y44:assets%2Ffonts%2Fbitmap%2FfontScoreValue.fntgoR0i18212R1R7R3y47:__ASSET__assets_fonts_bitmap_fontscorevalue_pngR5y44:assets%2Ffonts%2Fbitmap%2FfontScoreValue.pnggoR0i51263R1R7R3y37:__ASSET__assets_graphics_bglayer1_jpgR5y32:assets%2Fgraphics%2FbgLayer1.jpggoR0i174173R1R7R3y38:__ASSET__assets_graphics_bgwelcome_jpgR5y33:assets%2Fgraphics%2FbgWelcome.jpggoR0i799010R1R7R3y42:__ASSET__assets_graphics_myspritesheet_pngR5y37:assets%2Fgraphics%2FmySpritesheet.pnggoR0i6722R1R2R3y42:__ASSET__assets_graphics_myspritesheet_xmlR5y37:assets%2Fgraphics%2FmySpritesheet.xmlgoR0i1462R1R2R3y44:__ASSET__assets_particles_particlecoffee_pexR5y39:assets%2Fparticles%2FparticleCoffee.pexgoR0i1427R1R2R3y46:__ASSET__assets_particles_particlemushroom_pexR5y41:assets%2Fparticles%2FparticleMushroom.pexgoR0i668R1R7R3y37:__ASSET__assets_particles_texture_pngR5y32:assets%2Fparticles%2Ftexture.pnggoR0i280449R1y5:MUSICR3y33:__ASSET__assets_sounds_bggame_mp3R5y28:assets%2Fsounds%2FbgGame.mp3goR0i280449R1R32R3y36:__ASSET__assets_sounds_bgwelcome_mp3R5y31:assets%2Fsounds%2FbgWelcome.mp3goR0i25076R1R32R3y33:__ASSET__assets_sounds_coffee_mp3R5y28:assets%2Fsounds%2Fcoffee.mp3goR0i14627R1R32R3y30:__ASSET__assets_sounds_eat_mp3R5y25:assets%2Fsounds%2Feat.mp3goR0i10030R1R32R3y30:__ASSET__assets_sounds_hit_mp3R5y25:assets%2Fsounds%2Fhit.mp3goR0i10866R1R32R3y31:__ASSET__assets_sounds_hurt_mp3R5y26:assets%2Fsounds%2Fhurt.mp3goR0i51408R1R32R3y31:__ASSET__assets_sounds_lose_mp3R5y26:assets%2Fsounds%2Flose.mp3goR0i25494R1R32R3y35:__ASSET__assets_sounds_mushroom_mp3R5y30:assets%2Fsounds%2Fmushroom.mp3gh","rootPath":null,"version":2,"libraryArgs":[],"libraryType":null}';
 		manifest = AssetManifest.parse (data, rootPath);
 		library = AssetLibrary.fromManifest (manifest);
 		Assets.registerLibrary ("default", library);
@@ -91,28 +91,28 @@ null
 #if !display
 #if flash
 
-@:keep @:bind #if display private #end class __ASSET__assets_fonts_bitmap_fontregular_fnt extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_fonts_bitmap_fontregular_fnt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_fonts_bitmap_fontregular_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_fonts_bitmap_fontscorelabel_fnt extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_fonts_bitmap_fontscorelabel_fnt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_fonts_bitmap_fontscorelabel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_fonts_bitmap_fontscorevalue_fnt extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_fonts_bitmap_fontscorevalue_fnt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_fonts_bitmap_fontscorevalue_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_bglayer1_jpg extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_bgwelcome_jpg extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_graphics_myspritesheet_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_graphics_myspritesheet_xml extends null { }
-@:keep @:bind #if display private #end class __ASSET__assets_particles_particlecoffee_pex extends null { }
-@:keep @:bind #if display private #end class __ASSET__assets_particles_particlemushroom_pex extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_graphics_myspritesheet_xml extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_particles_particlecoffee_pex extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_particles_particlemushroom_pex extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_particles_texture_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_sounds_bggame_mp3 extends null { }
-@:keep @:bind #if display private #end class __ASSET__assets_sounds_bgwelcome_mp3 extends null { }
-@:keep @:bind #if display private #end class __ASSET__assets_sounds_coffee_mp3 extends null { }
-@:keep @:bind #if display private #end class __ASSET__assets_sounds_eat_mp3 extends null { }
-@:keep @:bind #if display private #end class __ASSET__assets_sounds_hit_mp3 extends null { }
-@:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_mp3 extends null { }
-@:keep @:bind #if display private #end class __ASSET__assets_sounds_lose_mp3 extends null { }
-@:keep @:bind #if display private #end class __ASSET__assets_sounds_mushroom_mp3 extends null { }
-@:keep @:bind #if display private #end class __ASSET__manifest_default_json extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_bggame_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_bgwelcome_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_coffee_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_eat_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_hit_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_lose_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_mushroom_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__manifest_default_json extends flash.utils.ByteArray { }
 
 
 #elseif (desktop || cpp)

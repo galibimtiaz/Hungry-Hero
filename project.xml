@@ -2,7 +2,7 @@
 <project>
 	
 	<meta title="HungryHero" package="com.sample.hungryhero" version="1.0.0" company="Twiined" />
-	<app main="HungryHero" path="Export" file="HungryHero" swf-version="12.0"/>
+	<app main="HungryHero" path="Export" file="HungryHero" swf-version="15.0"/>
 	<window width="1024" height="768" background="#222222" fps="60" />
 	
 	
