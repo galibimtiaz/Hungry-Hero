@@ -1,5 +1,5 @@
 # Hungry-Hero
-[Hungry Hero](http://www.hungryherogame.com/) is an Open Source game written in Haxe using OpenFl Starling Framework , this game was originally written in Action Script 3 for Flash and Air Platform but now its written in haxe it can be run to almost all the popular platforms like Anroid, HTML5, Flash, IOS, Desktop etc.
+[Hungry Hero](http://www.hungryherogame.com/) is an Open Source game written in Haxe using OpenFl Starling Framework , this game was originally written in Action Script 3 for Flash and Air Platform but now it is written in Haxe it can be run into almost all the popular platforms like Android, HTML5, Flash, IOS, Desktop etc.
 
 Here is the Original Game Link which is written in pure AS3 by Hemanth Sharma
 
